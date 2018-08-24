@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - enemy
+  - friend
+  - 1
+  - sky
+  - pak
+  - enemybird
+  - bullet
+  - magnet
+  - going
+  - blocks
+  - deadlyenemy
+  - invisibleblock
+  - generalinvisibleblock
+  - emoji
+  - pointededge
+  - monk
+  - monk1
+  - monk2
+  - start
+  - credits
+  - exit
+  - rocket
+  - tiles
+  - supporter
+  - loader
+  - hanger
+  - clip
+  - hittingball
+  - clue
+  - ground1
+  - Player2
+  - spider
+  - text
+  - key
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: sky
+    uniqueID: 2751096447
+    locked: 0
+  - name: betweengroundandsky
+    uniqueID: 3229120889
+    locked: 0
+  - name: ground
+    uniqueID: 1894639121
+    locked: 0
+  - name: obstacles
+    uniqueID: 1046164453
+    locked: 0
