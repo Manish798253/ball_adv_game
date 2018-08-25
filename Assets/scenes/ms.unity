@@ -5121,7 +5121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0d8a4464d820d458153a0f877c401d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reff_of_tiles: {fileID: 11400000, guid: b57009638df2e5945afb8a42ef2f0143, type: 2}
+  reff_of_tiles: {fileID: 11400000, guid: 18dd423aa7be5d44db42e156e819a730, type: 2}
   increased_value_of_ball_velocity: 3.39
 --- !u!212 &576582539
 SpriteRenderer:
@@ -11663,7 +11663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a0d8a4464d820d458153a0f877c401d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reff_of_tiles: {fileID: 11400000, guid: 1088af8a5482330419a0cf4d17d818e4, type: 2}
+  reff_of_tiles: {fileID: 11400000, guid: c7a26e2cdda6fd5489fb98b97cabcfad, type: 2}
   increased_value_of_ball_velocity: 3.39
 --- !u!212 &1564721650
 SpriteRenderer:
