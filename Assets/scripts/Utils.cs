@@ -14,7 +14,7 @@ public class Utils:MonoBehaviour  {
 	void Update ()
 	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<Rigidbody2D> ();
 		if (Input.GetKey (KeyCode.Escape)) {
-			gameover.text = "PAUSED";
+			gameover.text = "PAUSED..Press enter to continue";
 			for (i = 0; i < pause.Length; i++) {
 				if(pause[i].GetComponent<Rigidbody2D>()!=null)
 				pause [i].Sleep ();
