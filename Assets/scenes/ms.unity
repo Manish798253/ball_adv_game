@@ -3619,7 +3619,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1390912651167838, guid: 1be84ea9606806145b9fc36755106e42,
     type: 2}
   m_PrefabInternal: {fileID: 689599607}
---- !u!50 &414065322
+--- !u!50 &414065320
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
