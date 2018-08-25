@@ -20,7 +20,7 @@ public class charactermovement : MonoBehaviour {
 		if (GameObject.FindGameObjectWithTag ("Player2")!=null) {
 			movement_along_of_character = (-GameObject.FindGameObjectWithTag ("Player2").transform.position + transform.position);
 		 
-			if (Mathf.Abs (Vector3.Magnitude (transform.position - GameObject.FindGameObjectWithTag ("Player2").transform.position)) <= 10) {
+			if (Mathf.Abs (Vector3.Magnitude (transform.position - GameObject.FindGameObjectWithTag ("Player2").transform.position)) <= 18) {
 
 				time = time + Time.deltaTime;
 				if (time <= var_time)
