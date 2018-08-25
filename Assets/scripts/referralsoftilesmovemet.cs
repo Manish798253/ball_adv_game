@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(menuName="Content/moving_tiles__type")]
-public class referralsoftilesmovement:ScriptableObject
+public class referralsoftilesmovemet:ScriptableObject
 {
 	[Range(-4,4)]
 	public float movement;

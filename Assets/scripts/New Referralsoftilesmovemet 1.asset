@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: New Referralsoftilesmovement
-  m_EditorClassIdentifier: Assembly-CSharp::referralsoftilesmovement
-  movement: 0.1
-  time: 2
+  m_Script: {fileID: 11500000, guid: 735c602e7064dee4890e53b2efe1c203, type: 3}
+  m_Name: New Referralsoftilesmovemet 1
+  m_EditorClassIdentifier: 
+  movement: -0.1
+  time: 2.4
