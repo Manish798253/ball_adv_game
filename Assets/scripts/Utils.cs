@@ -4,17 +4,34 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Utils:MonoBehaviour  {
-	public GameObject emoji;int s=0;float time=0;public Text gameover;
+	public GameObject emoji;int s=0,i;float time=0;public Text gameover;Rigidbody2D[] pause;
 	// Use this for initialization
 	void Start()
 	{
-		gameover.text = " ";
+		gameover.text = " ";pause =GameObject .FindObjectsOfType<Rigidbody2D> ();
 	}
 	// Update is called once per frame
 	void Update ()
-	{Debug.Log ("yes $$$$$$");
-		if (Input.GetKey (KeyCode.Escape))
-			SceneManager.LoadScene (0);
+	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<Rigidbody2D> ();
+		if (Input.GetKey (KeyCode.Escape)) {
+			gameover.text = "PAUSED";
+			for (i = 0; i < pause.Length; i++) {
+				if(pause[i].GetComponent<Rigidbody2D>()!=null)
+				pause [i].Sleep ();
+				if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].GetComponent<MonoBehaviour>()!=GetComponent<MonoBehaviour>())
+				pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = false;
+			}
+		}
+		if (Input.GetKey (KeyCode.Return)) {
+			gameover.text = " ";
+			for (i = 0; i < pause.Length; i++) {
+				if (pause [i].GetComponent<Rigidbody2D> () != null)
+					pause [i].WakeUp ();
+				if (pause [i].GetComponent<MonoBehaviour> () != null)
+					pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = true;
+
+			}
+		}
 		if (GameObject.FindGameObjectWithTag ("Player") == null && s == 0) {
 			s = 1;Debug.Log ("yes $$$$$$");
 			Instantiate (emoji, Camera.main.transform.position + new Vector3 (0, 7, 0), emoji.transform.rotation, null);
@@ -28,3 +45,17 @@ public class Utils:MonoBehaviour  {
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
