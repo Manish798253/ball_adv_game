@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class bulletfiring1 : MonoBehaviour {
 	float time;
-	// Use this for initialization
+
 	void Start () {
 
 	}
 
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		time = time + Time.deltaTime;
 		if (time >= 3f) {gameObject.SetActive (false);

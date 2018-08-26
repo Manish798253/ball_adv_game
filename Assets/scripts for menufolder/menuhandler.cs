@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class menuhandler : MonoBehaviour {
-	[SerializeField]private GameObject menu;int s, f=0;bool justify=true;//for click position
-	// Use this for initialization
+	[SerializeField]private GameObject menu;int s, f=0;bool justify=true;
+
 	void Start () {
 		transform.position = menu.transform.GetChild (f).GetComponent<BoxCollider2D> ().bounds.center;
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.UpArrow)) {
 			s = 0;justify = true;
@@ -33,7 +33,7 @@ public class menuhandler : MonoBehaviour {
 
 
 		if (Input.GetKey(KeyCode.Return)) {
-			Debug.Log ("ff");
+			
 			if (f == 2)
 				f = -1;
 				utils.sceneloader (f+1);

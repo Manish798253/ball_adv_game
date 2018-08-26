@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class key : MonoBehaviour {
 	[SerializeField] GameObject ball;float s=0;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void FixedUpdate () {
 		if (s == 1 && ball!=null) {
 			transform.position = ball.transform.position;

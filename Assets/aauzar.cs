@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class aauzar : MonoBehaviour {
 	Rigidbody2D rb;public GameObject go;int f = 0;float x;monkeyactor monkey;float a;
-	// Use this for initialization
+
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();  a = Random.Range (1, 8);
 		this.x =a;
 		 
 	}
-	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		if(go.GetComponent<SpriteRenderer>().flipX==false && f==0)
 			rb.velocity = new Vector2 (-x, 2f);

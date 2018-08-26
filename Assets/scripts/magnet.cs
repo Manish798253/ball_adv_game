@@ -5,12 +5,7 @@ using UnityEngine;
 public class magnet : MonoBehaviour {
 	public float m = 0,s=0;GameObject go,going;float time=0;[SerializeField]private float t;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		if (s == 1) {
 			gameObject.GetComponent<Rigidbody2D> ().velocity = go.GetComponent<Rigidbody2D> ().velocity;

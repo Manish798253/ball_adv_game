@@ -5,14 +5,14 @@ using UnityEngine.Audio;
 public class coinactor : MonoBehaviour {
 	Vector3 r,diff;GameObject ballact;[SerializeField]private magnet mag;[SerializeField] private float vel;[SerializeField]public AudioSource coinvoice;
 	[SerializeField]AudioClip au;
-	// Use this for initialization
+
 	void Start () {
 		ballact = GameObject.FindGameObjectWithTag ("Player");
 		gameObject.AddComponent<Rigidbody2D> ();gameObject.GetComponent<Rigidbody2D> ().bodyType = RigidbodyType2D.Dynamic;
 		gameObject.GetComponent<Rigidbody2D> ().gravityScale = 0;
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		if(gameObject.tag=="going") {
 			r = ballact.transform.position;

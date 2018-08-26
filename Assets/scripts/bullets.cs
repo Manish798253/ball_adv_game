@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class bullets : MonoBehaviour {
 	BoxCollider2D boxcollider2d;[SerializeField]private GameObject go;[SerializeField]private ballActor ballact;[SerializeField]Text pressalt;
-	float time = -1f, d = 0,j=0;// Use this for initialization
+	float time = -1f, d = 0,j=0;
 	void Start () {
 		boxcollider2d = GetComponent<BoxCollider2D> ();pressalt.text = " ";
 	}
@@ -27,7 +27,7 @@ public class bullets : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		Debug.Log ("enter");
+		
 		if (other.gameObject.tag == "Player"&&d==0) {
 			this.gameObject.GetComponent<SpriteRenderer> ().sortingLayerName = "Default";time = 0f;d = 1;
 		}

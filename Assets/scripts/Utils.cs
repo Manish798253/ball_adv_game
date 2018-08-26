@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Utils:MonoBehaviour  {
 	public GameObject emoji;int s=0,i,length_rb;float time=0;public Text gameover;Transform[] pause;Vector2[] velocity;
-	// Use this for initialization
+
 	void Start()
 	{
 		gameover.text = " ";pause =GameObject .FindObjectsOfType<Transform> ();
 	}
-	// Update is called once per frame
+
 	void Update ()
-	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<Transform> ();
+	{pause =GameObject .FindObjectsOfType<Transform> ();
 		
 		if (Input.GetKey (KeyCode.Escape)) {
 			
@@ -21,7 +21,7 @@ public class Utils:MonoBehaviour  {
 				if (pause [i].gameObject.GetComponent<Rigidbody2D> () != null) {
 					pause [i].GetComponent<Rigidbody2D> ().Sleep ();
 				}
-				 if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].gameObject!=gameObject)
+				if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].gameObject!=gameObject&&pause[i].gameObject.layer!=5)
 				pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = false;
 			}
 		}
@@ -36,10 +36,10 @@ public class Utils:MonoBehaviour  {
 
 			}
 		}
-		if (GameObject.FindGameObjectWithTag ("Player") == null && s == 0) {
-			s = 1;Debug.Log ("yes $$$$$$");
+		if (GameObject.FindGameObjectWithTag ("Player") == null && s == 0&&GameObject.FindGameObjectWithTag ("Player2") == null) {
+			s = 1;
 			Instantiate (emoji, Camera.main.transform.position + new Vector3 (0, 7, 0), emoji.transform.rotation, null);
-			//Destroy (this. gameObject);
+
 		}
 		if (GameObject.FindGameObjectWithTag ("Player") == null && GameObject.FindGameObjectWithTag ("Player2") == null) {
 			time = time + Time.deltaTime;

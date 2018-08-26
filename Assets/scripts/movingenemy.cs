@@ -5,12 +5,12 @@ using UnityEngine;
 public class movingenemy : MonoBehaviour {
 	[SerializeField]private  cameraActor camact;float time=0f;[SerializeField]private ballActor ballact;
 	[SerializeField]private GameObject go;[SerializeField] private float vax=0,g,rotval;private Rigidbody2D rb;float f=0;
-	// Use this for initialization
+
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		rb.AddForce (9.81f*Vector2.up);
 

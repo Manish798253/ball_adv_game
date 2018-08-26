@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class pointededge : MonoBehaviour {
 	GameObject ballact;float s,f=0,inity;
-	// Use this for initialization
+
 	void Start () {
 		ballact = GameObject.FindGameObjectWithTag ("Player");inity = transform.position.y;
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		if (ballact.GetComponent<BoxCollider2D> ().bounds.max.x >= transform.position.x) {
 			f = 1;

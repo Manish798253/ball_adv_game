@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class suspension : MonoBehaviour {
 	[SerializeField]private float force;float s=0;
-	// Use this for initialization
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		
 	}

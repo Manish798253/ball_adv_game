@@ -5,16 +5,16 @@ using UnityEngine;
 public class monkeyactor : MonoBehaviour {
 	float jumprange,time=0,time1,d=1,q,w=1,r=1,destination,init,g,reactiontime,decider_for_jump_or_down,maxorminbound;[SerializeField]private float jump=0;bool jumpornot=false,skipdown=false;
 	[SerializeField]private float a, b;[SerializeField]public GameObject Go;float v,f;bool col=false;GameObject go1;aauzar aauzar;
-	// Use this for initialization
+
 	void Start () {
 		go1 = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		if (this.GetComponent<BoxCollider2D> ().isTrigger == false)
 			destination = 0;
-		Debug.Log ("time: " + time + ", jump: " + jump + ", a value: " + a + ", destination: " + destination + " ,decider_for_jump_or_down: " + decider_for_jump_or_down + ",reaction time: " + reactiontime); 
+		
 		if (reactiontime == 0 && gameObject.GetComponent<Rigidbody2D>().velocity.y==0) {
 			reactiontime = Mathf.Floor (Random.Range (a, b));decider_for_jump_or_down = Mathf.Floor (Random.Range (0, 2));
 		}
@@ -31,7 +31,7 @@ public class monkeyactor : MonoBehaviour {
 					gameObject.GetComponent<BoxCollider2D> ().isTrigger = true;
 				}
 				else if (destination != 0) {
-					gameObject.GetComponent<BoxCollider2D> ().isTrigger = false;Debug.Log ("trigger: " + gameObject.GetComponent<BoxCollider2D> ().isTrigger);
+					gameObject.GetComponent<BoxCollider2D> ().isTrigger = false;
 					jump++;
 					reactiontime = 0;
 					gameObject.GetComponent<Rigidbody2D> ().gravityScale = 1;
@@ -115,7 +115,7 @@ public class monkeyactor : MonoBehaviour {
 	}
 	void OnCollisionStay2D(Collision2D other)
 	{
-		col = true;Debug.Log(col);
+		col = true;
 	}
 	void OnCollisionEnter2D(Collision2D other)
 	{

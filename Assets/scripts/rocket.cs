@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class rocket : MonoBehaviour {
 	float time=0;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 
 		time = time + Time.deltaTime;

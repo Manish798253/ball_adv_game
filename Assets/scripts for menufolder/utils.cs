@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public static class utils  {
 	
-	// Use this for initialization
+
 
 	public static void sceneloader (int s) {
 		if (s == 0) {
-			SceneManager.LoadScene (0);Debug.Log ("yes");
+			SceneManager.LoadScene (0);
 		} else if (s == 1) {
 			SceneManager.LoadScene (1);
 

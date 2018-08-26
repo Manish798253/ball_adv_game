@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class deadlyenemy : MonoBehaviour {
 	float time = 0, s = 0,m=0,a = 1;[SerializeField] private float forceup;float d=0,initpos,x=0,init=0;[SerializeField]private GameObject go,ballact;
-	public float count=0;public Text deadlyenemy_bullets;string k;// Use this for initialization
+	public float count=0;public Text deadlyenemy_bullets;string k;
 	void Start () {
 		init = transform.position.x;ballact = GameObject.FindGameObjectWithTag ("Player");deadlyenemy_bullets.text = " ";
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		
 			
@@ -18,7 +18,7 @@ public class deadlyenemy : MonoBehaviour {
 		if (count == 10) {
 			Destroy (gameObject);
 		}
-		Debug.Log ("count is "+count);
+
 		if (s == 1) {
 			time = time + Time.deltaTime;
 			if (time == Time.deltaTime) {
@@ -67,7 +67,7 @@ public class deadlyenemy : MonoBehaviour {
 					gameObject.GetComponent<SpriteRenderer> ().flipX = true;
 				gameObject.GetComponent<Rigidbody2D> ().velocity = new Vector2 (2, 0);time = 0;
 				
-				Debug.Log ("1st");
+
 			} 
 			if (time>0 && time <= 2) {
 				gameObject.GetComponent<SpriteRenderer> ().flipX = false;

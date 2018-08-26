@@ -10,7 +10,7 @@ public class ballActor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Ground =GameObject.FindGameObjectWithTag ("ground");boxcolliderground= Ground.GetComponent<BoxCollider2D> ();
-		Debug.Log ("amb " + Ground);
+
 		rb = GetComponent<Rigidbody2D> ();circleccollider2D = GetComponent<CircleCollider2D> ();	compare = boxcolliderground.bounds.min.y;groundfixed_y_min = compare;
 	}
 
@@ -18,14 +18,14 @@ public class ballActor : MonoBehaviour {
 	void FixedUpdate () {
 
 
-		if (Input.GetKey (KeyCode.D))//&& (transform.position.y-circleccollider2D.radius)>=groundfixed_y_min+3f) {
+		if (Input.GetKey (KeyCode.D))
 		{
 
 			rb.velocity = new Vector2 (value, rb.velocity.y);
 			rb.angularVelocity = -760;
 
 
-	} if (Input.GetKey(KeyCode.A))//&&(transform.position.y-circleccollider2D.radius) >=groundfixed_y_min+3f) {
+	} if (Input.GetKey(KeyCode.A))
 		{
 			rb.velocity = new Vector2 (-value, rb.velocity.y);
 			rb.angularVelocity = 760;
@@ -36,7 +36,7 @@ public class ballActor : MonoBehaviour {
 			rb.velocity.Set(rb.velocity.x, 0f);
 			if(s==1) 
 		    rb.AddForce(Vector2.up * valueofup);
-			Debug.Log (s);
+			
 
 
 			s = 0;
@@ -67,7 +67,7 @@ public class ballActor : MonoBehaviour {
 
 
 	void OnCollisionStay2D(Collision2D contactInfo)
-	{ Debug.Log ((transform.position.y)+"and"+contactInfo.transform.position.y);
+	{ 
 		if ( transform.position.y>=contactInfo.collider.bounds.max.y-.1f )
 			s = 1;
 		
@@ -81,8 +81,8 @@ public class ballActor : MonoBehaviour {
 
 		l = (circleccollider2D.bounds.max.y - frndotherthancoin.max ());
 		j = 2 * circleccollider2D.radius;
-		float v = l, i = 0, h=0;Debug.Log (other.gameObject.tag);
-		if(other.gameObject.GetComponent<Rigidbody2D> () != null && other.gameObject.tag=="enemy") //!=GameObject.FindGameObjectWithTag("pak"))
+		float v = l, i = 0, h=0;
+		if(other.gameObject.GetComponent<Rigidbody2D> () != null && other.gameObject.tag=="enemy") 
 		{
 			while (i < 2) {
 				if (v * 10 < 1) {

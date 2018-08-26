@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class deadfire : MonoBehaviour {
 	float time=0;Vector3 initposball,initposfire,diff;[SerializeField]private float velocity=2;GameObject go;
-	// Use this for initialization
+
 	void Start () {
 		go = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
-	// Update is called once per frame
+
 	void FixedUpdate () {
 		time = time+Time.deltaTime;
 

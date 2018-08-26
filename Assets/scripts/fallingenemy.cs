@@ -6,12 +6,12 @@ public class fallingenemy : MonoBehaviour {
 	Vector3 t;
 	private Rigidbody2D rb;float s;[SerializeField] private float vel;
 	private GameObject camact;
-	// Use this for initialization
+
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();camact = GameObject.FindGameObjectWithTag ("MainCamera");
 	}
 
-	// Update is called once per frame
+
 	void Update () {
 		t = GameObject.FindGameObjectWithTag ("Player").transform.position;
 		if (transform.position.x <= -Camera.main.orthographicSize * Camera.main.aspect + camact.transform.position.x) {
