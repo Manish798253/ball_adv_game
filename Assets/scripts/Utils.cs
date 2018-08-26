@@ -42,7 +42,7 @@ public class Utils:MonoBehaviour  {
 
 		}
 		if (GameObject.FindGameObjectWithTag ("Player") == null && GameObject.FindGameObjectWithTag ("Player2") == null) {
-			time = time + Time.deltaTime;
+			time = time + Time.deltaTime;Camera.main.GetComponent<AudioListener> ().enabled = false;
 			gameover.text = "GAME OVER";
 			if (time >= 4f)
 				SceneManager.LoadScene (0);
