@@ -4,21 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Utils:MonoBehaviour  {
-	public GameObject emoji;int s=0,i;float time=0;public Text gameover;Rigidbody2D[] pause;
+	public GameObject emoji;int s=0,i;float time=0;public Text gameover;SpriteRenderer[] pause;
 	// Use this for initialization
 	void Start()
 	{
-		gameover.text = " ";pause =GameObject .FindObjectsOfType<Rigidbody2D> ();
+		gameover.text = " ";pause =GameObject .FindObjectsOfType<SpriteRenderer> ();
 	}
 	// Update is called once per frame
 	void Update ()
-	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<Rigidbody2D> ();
+	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<SpriteRenderer> ();
 		if (Input.GetKey (KeyCode.Escape)) {
 			gameover.text = "PAUSED..Press enter to continue";
 			for (i = 0; i < pause.Length; i++) {
-				if(pause[i].GetComponent<Rigidbody2D>()!=null)
-				pause [i].Sleep ();
-				if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].GetComponent<MonoBehaviour>()!=GetComponent<MonoBehaviour>())
+				if(pause[i].gameObject.GetComponent<Rigidbody2D>()!=null)
+					pause [i].GetComponent<Rigidbody2D>().Sleep ();
+				if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].gameObject!=gameObject)
 				pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = false;
 			}
 		}
@@ -26,7 +26,7 @@ public class Utils:MonoBehaviour  {
 			gameover.text = " ";
 			for (i = 0; i < pause.Length; i++) {
 				if (pause [i].GetComponent<Rigidbody2D> () != null)
-					pause [i].WakeUp ();
+					pause [i].GetComponent<Rigidbody2D>().WakeUp ();
 				if (pause [i].GetComponent<MonoBehaviour> () != null)
 					pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = true;
 
