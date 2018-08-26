@@ -4,30 +4,34 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Utils:MonoBehaviour  {
-	public GameObject emoji;int s=0,i;float time=0;public Text gameover;SpriteRenderer[] pause;
+	public GameObject emoji;int s=0,i,length_rb;float time=0;public Text gameover;Transform[] pause;Vector2[] velocity;
 	// Use this for initialization
 	void Start()
 	{
-		gameover.text = " ";pause =GameObject .FindObjectsOfType<SpriteRenderer> ();
+		gameover.text = " ";pause =GameObject .FindObjectsOfType<Transform> ();
 	}
 	// Update is called once per frame
 	void Update ()
-	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<SpriteRenderer> ();
+	{Debug.Log ("yes $$$$$$");pause =GameObject .FindObjectsOfType<Transform> ();
+		
 		if (Input.GetKey (KeyCode.Escape)) {
+			
 			gameover.text = "PAUSED..Press enter to continue";
 			for (i = 0; i < pause.Length; i++) {
-				if(pause[i].gameObject.GetComponent<Rigidbody2D>()!=null)
-					pause [i].GetComponent<Rigidbody2D>().Sleep ();
-				if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].gameObject!=gameObject)
+				if (pause [i].gameObject.GetComponent<Rigidbody2D> () != null) {
+					pause [i].GetComponent<Rigidbody2D> ().Sleep ();
+				}
+				 if(pause[i].GetComponent<MonoBehaviour>()!=null &&pause[i].gameObject!=gameObject)
 				pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = false;
 			}
 		}
 		if (Input.GetKey (KeyCode.Return)) {
 			gameover.text = " ";
 			for (i = 0; i < pause.Length; i++) {
-				if (pause [i].GetComponent<Rigidbody2D> () != null)
-					pause [i].GetComponent<Rigidbody2D>().WakeUp ();
-				if (pause [i].GetComponent<MonoBehaviour> () != null)
+				if (pause [i].GetComponent<Rigidbody2D> () != null) {
+					pause [i].GetComponent<Rigidbody2D> ().WakeUp ();
+				}
+				 if (pause [i].GetComponent<MonoBehaviour> () != null)
 					pause [i].gameObject.GetComponent<MonoBehaviour> ().enabled = true;
 
 			}
