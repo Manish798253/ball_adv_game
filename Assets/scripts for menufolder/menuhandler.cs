@@ -34,8 +34,7 @@ public class menuhandler : MonoBehaviour {
 
 		if (Input.GetKey(KeyCode.Return)) {
 			
-			if (f == 2)
-				f = -1;
+
 				utils.sceneloader (f+1);
 
 			

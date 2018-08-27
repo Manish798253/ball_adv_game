@@ -1,49 +1,49 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\charactermovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Endupscene.cs">
     <Files>
-      <File FileName="Assets\scripts\moving_tiles.cs" Line="12" Column="1" />
+      <File FileName="Assets\scripts\moving_tiles.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\referralsoftilesmovemet.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Utils.cs" Line="36" Column="5" />
-      <File FileName="Assets\scripts\rotating_fire.cs" Line="18" Column="10" />
-      <File FileName="Assets\scripts\charactermovement.cs" Line="45" Column="4" />
-      <File FileName="Assets\scripts\ballActor.cs" Line="2" Column="34" />
-      <File FileName="Assets\scripts\bulletfiring1.cs" Line="15" Column="27" />
-      <File FileName="Assets\scripts\bullets.cs" Line="30" Column="3" />
-      <File FileName="Assets\scripts\cameraActor.cs" Line="47" Column="2" />
-      <File FileName="Assets\scripts\clip_movement.cs" Line="43" Column="99" />
-      <File FileName="Assets\scripts\coinactor.cs" Line="15" Column="2" />
-      <File FileName="Assets\scripts\deadlyenemy.cs" Line="70" Column="5" />
-      <File FileName="Assets\scripts\duckels.cs" Line="40" Column="5" />
-      <File FileName="Assets\scripts\emoji.cs" Line="12" Column="13" />
-      <File FileName="Assets\scripts\enemy.cs" Line="26" Column="15" />
-      <File FileName="Assets\scripts\enemyactor.cs" Line="7" Column="2" />
-      <File FileName="Assets\scripts\fallingenemy.cs" Line="14" Column="2" />
-      <File FileName="Assets\scripts\frndotherthancoin.cs" Line="7" Column="2" />
-      <File FileName="Assets\scripts\goli.cs" Line="11" Column="18" />
-      <File FileName="Assets\scripts\hanger.cs" Line="27" Column="2" />
-      <File FileName="Assets\scripts\hangingtiles_mov.cs" Line="22" Column="30" />
-      <File FileName="Assets\scripts\invisibleblock.cs" Line="30" Column="42" />
-      <File FileName="Assets\scripts\invisiblegeneralblock.cs" Line="20" Column="4" />
-      <File FileName="Assets\scripts\key.cs" Line="17" Column="4" />
-      <File FileName="Assets\scripts\loader.cs" Line="20" Column="5" />
-      <File FileName="Assets\scripts\magnet.cs" Line="15" Column="3" />
-      <File FileName="Assets\scripts\monkeyactor.cs" Line="118" Column="14" />
-      <File FileName="Assets\scripts\movingenemy.cs" Line="12" Column="2" />
-      <File FileName="Assets\scripts\pointededge.cs" Line="14" Column="28" />
+      <File FileName="Assets\scripts\Utils.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\rotating_fire.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\charactermovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ballActor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\bulletfiring1.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\bullets.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\cameraActor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\clip_movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\coinactor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\deadlyenemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\duckels.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\emoji.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\enemyactor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\fallingenemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\frndotherthancoin.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\goli.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\hanger.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\hangingtiles_mov.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\invisibleblock.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\invisiblegeneralblock.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\key.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\loader.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\magnet.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\monkeyactor.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\movingenemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\pointededge.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\referralsoforfire.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\rocket.cs" Line="23" Column="4" />
-      <File FileName="Assets\scripts\rocket_firing.cs" Line="12" Column="10" />
-      <File FileName="Assets\scripts\suspension.cs" Line="14" Column="3" />
-      <File FileName="Assets\scripts for menufolder\menuhandler.cs" Line="36" Column="4" />
-      <File FileName="Assets\scripts for menufolder\utils.cs" Line="11" Column="31" />
-      <File FileName="Assets\aauzar.cs" Line="17" Column="26" />
-      <File FileName="Assets\again_visible_block.cs" Line="15" Column="3" />
-      <File FileName="Assets\deadfire.cs" Line="13" Column="23" />
-      <File FileName="Assets\firing.cs" Line="20" Column="12" />
-      <File FileName="Assets\jadoo.cs" Line="21" Column="4" />
-      <File FileName="Assets\locker_end_of_scene.cs" Line="14" Column="32" />
-      <File FileName="Assets\vivsible_or_not.cs" Line="29" Column="1" />
+      <File FileName="Assets\scripts\rocket.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\rocket_firing.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\suspension.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts for menufolder\menuhandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts for menufolder\utils.cs" Line="1" Column="1" />
+      <File FileName="Assets\aauzar.cs" Line="1" Column="1" />
+      <File FileName="Assets\again_visible_block.cs" Line="1" Column="1" />
+      <File FileName="Assets\deadfire.cs" Line="1" Column="1" />
+      <File FileName="Assets\firing.cs" Line="1" Column="1" />
+      <File FileName="Assets\jadoo.cs" Line="1" Column="1" />
+      <File FileName="Assets\locker_end_of_scene.cs" Line="1" Column="1" />
+      <File FileName="Assets\vivsible_or_not.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\Endupscene.cs" Line="11" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -14,6 +14,8 @@ public static class utils  {
 
 		} else if (s == 2) {
 			SceneManager.LoadScene (4);
-		}
+		} else if (s == 3)
+			Application.Quit ();
+
 	}
 }
