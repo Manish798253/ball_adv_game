@@ -15,7 +15,7 @@ public class Utils:MonoBehaviour  {
 	{pause =GameObject .FindObjectsOfType<Transform> ();
 		
 		if (Input.GetKey (KeyCode.Escape)) {
-			
+			Camera.main.transform.GetChild (0).GetComponent<AudioSource> ().Pause ();
 			gameover.text = "PAUSED..Press enter to continue";
 			for (i = 0; i < pause.Length; i++) {
 				if (pause [i].gameObject.GetComponent<Rigidbody2D> () != null) {
@@ -26,6 +26,7 @@ public class Utils:MonoBehaviour  {
 			}
 		}
 		if (Input.GetKey (KeyCode.Return)) {
+			Camera.main.transform.GetChild (0).GetComponent<AudioSource> ().UnPause ();
 			gameover.text = " ";
 			for (i = 0; i < pause.Length; i++) {
 				if (pause [i].GetComponent<Rigidbody2D> () != null) {
@@ -42,7 +43,7 @@ public class Utils:MonoBehaviour  {
 
 		}
 		if (GameObject.FindGameObjectWithTag ("Player") == null && GameObject.FindGameObjectWithTag ("Player2") == null) {
-			time = time + Time.deltaTime;Camera.main.GetComponent<AudioListener> ().enabled = false;
+			time = time + Time.deltaTime;Camera.main.transform.GetChild (0).GetComponent<AudioSource> ().Stop ();
 			gameover.text = "GAME OVER";
 			if (time >= 4f)
 				SceneManager.LoadScene (0);

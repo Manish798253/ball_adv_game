@@ -12,7 +12,7 @@ public class bullets : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 		if (d==1) {
-			if(Input.GetKeyDown(KeyCode.RightAlt))
+			if(Input.GetKeyDown(KeyCode.RightAlt)||Input.GetKeyDown(KeyCode.LeftAlt))
 			GetBullet ();
 			gameObject.transform.position = ballact.transform.position;
 		}
