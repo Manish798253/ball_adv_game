@@ -7,12 +7,12 @@ public class goli : MonoBehaviour {
 	[SerializeField]private  GameObject bullet;AudioClip a;AudioSource audioso;float  m=3.14f/180f,initcampos;
 	[SerializeField]GameObject go;int limit;Vector3 campos,initball,diff;int s=0;GameObject sky;
 
-	void Start () {
+	void Awake () {
 		initcampos = 0;
 		audioso=GetComponent<AudioSource>();campos = Camera.main.transform.position;initball = transform.position;
 	}
 	void Update()
-	{
+	{Camera.main.GetComponent<cameraActor> ().enabled = false;
 		if (s == 0) {
 			campos = Camera.main.transform.position;s++;initball = transform.position;
 		}
@@ -39,7 +39,7 @@ public class goli : MonoBehaviour {
 		if (hit.collider != null && hit.collider.tag == "spider" && audioso.clip != null)
 			audioso.Play ();
 
-		if (Input.GetKeyDown (KeyCode.RightAlt)) {
+		if (Input.GetKeyDown (KeyCode.RightAlt)||Input.GetKeyDown(KeyCode.LeftAlt)) {
 			GameObject go = Instantiate (bullet, transform.GetChild (0).transform.position, transform.rotation, null);
 			go.GetComponent<Rigidbody2D> ().velocity = Vector3.Normalize (transform.GetChild (0).transform.position - transform.position) * 9f;
 

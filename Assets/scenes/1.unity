@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &517220
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1394187
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &15656923
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &54062435
@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &86101494
@@ -1369,7 +1369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &112330740
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &118491835
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &159170754
@@ -2122,7 +2122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &204343482
@@ -2300,7 +2300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &223118982
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &247811543
@@ -2515,7 +2515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &252288706
@@ -2620,7 +2620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &264661062
@@ -2806,7 +2806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &293161567
@@ -2911,7 +2911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &299889127
@@ -3518,7 +3518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &378312255
@@ -3811,7 +3811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &414508788
@@ -4398,7 +4398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &468545212
@@ -4503,7 +4503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &480323472
@@ -4608,7 +4608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &497021909
@@ -4869,7 +4869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &523886204
@@ -4974,7 +4974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &524842149
@@ -5224,7 +5224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &540466033
@@ -5461,7 +5461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!1 &567568687
@@ -5627,7 +5627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &582001262
@@ -5779,7 +5779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &589253734
@@ -6343,7 +6343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &617792333
@@ -6448,7 +6448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &634112250
@@ -6863,7 +6863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &647123526
@@ -7208,7 +7208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &682403779
@@ -7313,7 +7313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &689996975
@@ -8145,7 +8145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &758866624
@@ -8426,7 +8426,7 @@ Prefab:
     - target: {fileID: 114988503165475306, guid: 9e506a33a6b9d6044a45dcaa5c66a870,
         type: 2}
       propertyPath: value
-      value: 4
+      value: 6.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9e506a33a6b9d6044a45dcaa5c66a870, type: 2}
@@ -8651,7 +8651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &818093711
@@ -8756,7 +8756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &821681752
@@ -8861,7 +8861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &827069101
@@ -9086,7 +9086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &855490491
@@ -9421,7 +9421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &863117608
@@ -9774,7 +9774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &913739730
@@ -9879,7 +9879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &916679247
@@ -10156,7 +10156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &946498844
@@ -10554,7 +10554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1032914282
@@ -10659,7 +10659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1043833467
@@ -10764,7 +10764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1074965435
@@ -10879,7 +10879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1101136749
@@ -10984,7 +10984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1111920691
@@ -11209,7 +11209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1141204922
@@ -11314,7 +11314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1166284557
@@ -11650,7 +11650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1195041621
@@ -12255,7 +12255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1308175565
@@ -13286,7 +13286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1363262835
@@ -13730,7 +13730,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1390866757
@@ -13835,7 +13835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1406507934
@@ -13940,7 +13940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1409226774
@@ -14144,7 +14144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1430844851
@@ -14249,7 +14249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1487333905
@@ -14401,7 +14401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1489989225
@@ -14626,7 +14626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1537109344
@@ -14941,7 +14941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1573315342
@@ -15265,7 +15265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1633250854
@@ -15589,7 +15589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1693361852
@@ -15794,6 +15794,11 @@ Prefab:
       propertyPath: coinvoice
       value: 
       objectReference: {fileID: 1988876698}
+    - target: {fileID: 114836097247920722, guid: 22c8c4f7ed5eaa4449fdc5f839d0f9f2,
+        type: 2}
+      propertyPath: vel
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22c8c4f7ed5eaa4449fdc5f839d0f9f2, type: 2}
   m_IsPrefabParent: 0
@@ -15939,7 +15944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1741994516
@@ -16044,7 +16049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1743607153
@@ -16136,7 +16141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1745534676
@@ -16473,7 +16478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1788563437
@@ -16698,7 +16703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &1863068321
@@ -17900,7 +17905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &2030968696
@@ -18125,7 +18130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &2072637500
@@ -18667,7 +18672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mag: {fileID: 464676332}
-  vel: 6
+  vel: 8
   coinvoice: {fileID: 1988876698}
   au: {fileID: 8300000, guid: 13f70628c1b3a4855864dfc9bf37c2a4, type: 3}
 --- !u!58 &2143803721

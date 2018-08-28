@@ -14,7 +14,7 @@ public class Utils:MonoBehaviour  {
 	void Update ()
 	{pause =GameObject .FindObjectsOfType<Transform> ();
 		
-		if (Input.GetKey (KeyCode.Escape)) {
+		if (Input.GetKey (KeyCode.Escape) && gameover.text!="GAME OVER") {
 			Camera.main.transform.GetChild (0).GetComponent<AudioSource> ().Pause ();
 			gameover.text = "PAUSED..Press enter to continue";
 			for (i = 0; i < pause.Length; i++) {
