@@ -25,7 +25,7 @@ public class menuhandler : MonoBehaviour {
 			
 			
 	}
-		while (s == 1 && f != 2&&justify==true) {
+		while (s == 1 && f != 3&&justify==true) {
 			transform.position=menu.transform.GetChild(++f).GetComponent<BoxCollider2D>().bounds.center;justify = false;
 		}
 
