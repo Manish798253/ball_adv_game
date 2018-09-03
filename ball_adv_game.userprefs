@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\coinactor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\aauzar.cs">
     <Files>
       <File FileName="Assets\scripts\moving_tiles.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\referralsoftilesmovemet.cs" Line="1" Column="1" />
@@ -9,10 +9,10 @@
       <File FileName="Assets\scripts\charactermovement.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\ballActor.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\bulletfiring1.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\bullets.cs" Line="11" Column="2" />
+      <File FileName="Assets\scripts\bullets.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\cameraActor.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\clip_movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\coinactor.cs" Line="7" Column="51" />
+      <File FileName="Assets\scripts\coinactor.cs" Line="7" Column="31" />
       <File FileName="Assets\scripts\deadlyenemy.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\duckels.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\emoji.cs" Line="1" Column="1" />
@@ -35,8 +35,8 @@
       <File FileName="Assets\scripts\rocket.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\rocket_firing.cs" Line="1" Column="1" />
       <File FileName="Assets\scripts\suspension.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts for menufolder\menuhandler.cs" Line="37" Column="4" />
-      <File FileName="Assets\scripts for menufolder\utils.cs" Line="14" Column="4" />
+      <File FileName="Assets\scripts for menufolder\menuhandler.cs" Line="28" Column="26" />
+      <File FileName="Assets\scripts for menufolder\utils.cs" Line="11" Column="25" />
       <File FileName="Assets\aauzar.cs" Line="1" Column="1" />
       <File FileName="Assets\again_visible_block.cs" Line="1" Column="1" />
       <File FileName="Assets\deadfire.cs" Line="1" Column="1" />

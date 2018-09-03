@@ -2,3 +2,7 @@ Library
 Temp
 ball_adv_game.sln
 Assembly-CSharp.csproj
+Assets
+obj
+ProjectSettings
+
